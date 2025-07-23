@@ -1,5 +1,6 @@
 import gradio as gr
 from RAG_Helper import RAGHelper
+import os
 
 rag = RAGHelper(pdf_folder="pdfFiles")
 
@@ -26,10 +27,5 @@ with gr.Blocks() as demo:
     load_btn.click(fn=init_rag, outputs=status)
     submit_btn.click(fn=ask_question, inputs=query, outputs=answer)
 
-import os
-
 if __name__ == "__main__":
-    import gradio as gr
-    iface = gr.Interface(fn=your_function, inputs=..., outputs=...)
-    iface.launch(server_name="0.0.0.0", server_port=int(os.environ.get("PORT", 8080)))
-
+    demo.launch(server_name="0.0.0.0", server_port=int(os.environ.get("PORT", 7860)))
