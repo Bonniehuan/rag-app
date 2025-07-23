@@ -1,0 +1,7 @@
+gradio
+openai
+langchain
+faiss-cpu
+unstructured
+pypdf
+python-docx
