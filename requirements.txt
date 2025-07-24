@@ -5,3 +5,4 @@ faiss-cpu==1.7.4
 unstructured
 pypdf
 python-docx
+setuptools>=42
