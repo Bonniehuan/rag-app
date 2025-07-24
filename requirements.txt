@@ -1,6 +1,9 @@
 gradio==4.26.0
-openai==0.28
-langchain==0.2.1
+openai>=1.10.0
+langchain==0.1.16
+langchain-core==0.1.14
+langchain-community==0.0.32
+langchain-openai==0.1.6
 faiss-cpu==1.7.4
 unstructured
 pypdf
