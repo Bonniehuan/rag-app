@@ -1,5 +1,5 @@
 gradio
-openai
+openai>=1.0.0
 langchain
 faiss-cpu
 unstructured
@@ -8,4 +8,4 @@ python-docx
 langchain
 langchain-core
 langchain-community
-langchain-openai
+langchain-openai>=0.1.0
