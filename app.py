@@ -7,7 +7,7 @@ rag = RAGHelper(pdf_folder="pdfFiles")
 async def init_rag():
     await rag.load_and_prepare(file_extensions=[".pdf", ".txt", ".docx"])
     rag.setup_retrieval_chain()
-
+    rag.setup_qa_chain() 
 # 啟動時載入知識庫
 asyncio.run(init_rag())
 
