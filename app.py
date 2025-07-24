@@ -9,7 +9,7 @@ async def init_rag():
     rag.setup_retrieval_chain()
     rag.setup_qa_chain() 
 # 啟動時載入知識庫
-asyncio.run(init_rag())
+# asyncio.run(init_rag())
 
 def ask_question(message, history):
     answer, _ = rag.ask(message)
