@@ -6,3 +6,4 @@ unstructured
 pypdf
 python-docx
 setuptools>=42
+wheel
