@@ -1,9 +1,4 @@
 gradio==4.26.0
 openai==0.28
 langchain==0.2.1
-chromadb
-unstructured
-pypdf
-python-docx
-setuptools>=65.0.0
-wheel
+chromadb==0.4.24
